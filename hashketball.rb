@@ -164,7 +164,7 @@ end
 def player_numbers(team_name)
     result = []
     game_hash.each do |origin, team|
-        team[:players].each do |name, stats| # Why doesn't it work if I switch lines 167 with 168?
+        team[:players].each do |name, stats| 
             if team[:team_name] == team_name
                 result << team[:players][name][:number]
             end
@@ -182,6 +182,9 @@ def player_stats(name)
   end     
 end
 
+
+def big_shoe_rebounds
+  
 
 
 
