@@ -174,7 +174,6 @@ def player_numbers(team_name)
 end
 
 
-
 def player_stats(name)
   game_hash.each do |key, value|
     if game_hash[key][:players].include?(name)
