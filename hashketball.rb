@@ -183,7 +183,7 @@ def player_stats(name)
 end
 
 
-def big_shoe_rebounds(game)
+def big_shoe_rebounds
   max_player = nil
   game.each do |team, team_hash|
     team_hash[:players].each do |player, player_hash|
